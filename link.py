@@ -2,7 +2,7 @@ import streamlit as st
 from urllib.parse import urlparse, urlunparse
 
 # Page setup
-st.set_page_config(page_title="Clean Link Helper")
+st.set_page_config(page_title="Professional Link Maker")
 
 st.title("🔗  Professional Link Maker")
 st.write("Make long professional links look clean and presentable.")
@@ -26,5 +26,6 @@ if st.button("Clean Link"):
         st.success("Your clean link is ready")
 
         st.write("**Clean Link:**")
+
 
         st.code(cleaned_link)
